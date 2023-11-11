@@ -1,0 +1,11 @@
+import java.util.*;
+
+public class studyopedia{
+   
+     public static void main(String args[]){
+        
+       //BITWISE COMPLIMENT OPERATOR//
+
+           System.out.println((~0));
+   }
+}

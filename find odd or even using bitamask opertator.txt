@@ -1,0 +1,20 @@
+import java.util.*;
+
+public class studyopedia{
+   
+     public static void OddOrEven(int n){
+           int bitMask = 1;
+          if((n & bitMask)== 0){
+           
+          //even number
+          System.out.println("even number");
+        }else{
+          System.out.println("odd numbers");
+        }
+     }
+      public static void main(String args[]){
+          OddOrEven(3);
+          OddOrEven(67);
+          OddOrEven(12);
+    }
+}  

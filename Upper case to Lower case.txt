@@ -1,0 +1,13 @@
+import java.util.*;
+
+public class studyopedia{
+   public static void main(String args[]){
+   
+    //CONVERT UPPER CHARACTER TO LOWER//
+  for(char ch = 'A'; ch<= 'Z'; ch++){
+        System.out.println((char)(ch | ' '));
+  }
+ }
+}
+    
+//print abcdefghijklmnopqrstuvwxyz//  
